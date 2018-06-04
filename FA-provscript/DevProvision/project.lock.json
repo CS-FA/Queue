@@ -1,0 +1,1800 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Google.Protobuf/3.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "Microsoft.Azure.KeyVault.Core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Azure.KeyVault.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Azure.KeyVault.Core.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.AppService.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.KeyVault.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Storage.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.AppService.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.AppService.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Batch.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Storage.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Batch.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Batch.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.BatchAI.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.BatchAI.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.BatchAI.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Cdn.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Cdn.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Cdn.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Compute.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.Graph.RBAC.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Msi.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Network.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Storage.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Compute.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Compute.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.ContainerInstance.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Storage.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10",
+          "WindowsAzure.Storage": "8.1.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.ContainerInstance.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.ContainerInstance.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.ContainerRegistry.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Storage.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.ContainerRegistry.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.ContainerRegistry.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.ContainerService.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.ContainerService.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.ContainerService.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.CosmosDB.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.CosmosDB.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.CosmosDB.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Dns.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Dns.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Dns.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.EventHub.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Storage.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10",
+          "WindowsAzure.Storage": "8.1.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.EventHub.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.EventHub.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.AppService.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Batch.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.BatchAI.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Cdn.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Compute.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.ContainerInstance.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.ContainerRegistry.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.ContainerService.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.CosmosDB.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Dns.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.EventHub.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Graph.RBAC.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.KeyVault.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Locks.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Monitor.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Msi.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Network.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Redis.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Search.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.ServiceBus.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Sql.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Storage.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.TrafficManager.Fluent": "1.10.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Graph.RBAC.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Graph.RBAC.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Graph.RBAC.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.KeyVault.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.Graph.RBAC.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.KeyVault.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.KeyVault.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Locks.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Locks.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Locks.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Monitor.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Monitor.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Monitor.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Msi.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.Graph.RBAC.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Msi.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Msi.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Network.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Network.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Network.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Redis.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Redis.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Redis.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.ResourceManager.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10",
+          "Microsoft.Rest.ClientRuntime.Azure.Authentication": "2.3.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.ResourceManager.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.ResourceManager.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Search.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Search.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Search.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.ServiceBus.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.ServiceBus.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.ServiceBus.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Sql.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Azure.Management.Storage.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10",
+          "WindowsAzure.Storage": "8.1.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Sql.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Sql.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Storage.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.Storage.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.Storage.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.TrafficManager.Fluent/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Management.ResourceManager.Fluent": "1.10.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.10"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Azure.Management.TrafficManager.Fluent.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.Management.TrafficManager.Fluent.dll": {}
+        }
+      },
+      "Microsoft.Data.Edm/5.8.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Data.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Data.Edm.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.Data.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.Data.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.Data.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.Data.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ru/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-Hans/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net40/zh-Hant/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Data.OData/5.8.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.Edm": "[5.8.2]",
+          "System.Spatial": "[5.8.2]"
+        },
+        "compile": {
+          "lib/net40/Microsoft.Data.OData.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Data.OData.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.Data.OData.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.Data.OData.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.Data.OData.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.Data.OData.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.Data.OData.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.Data.OData.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ru/Microsoft.Data.OData.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-Hans/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net40/zh-Hant/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Data.Services.Client/5.8.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.OData": "[5.8.2]",
+          "System.ComponentModel.EventBasedAsync": "4.0.11",
+          "System.Dynamic.Runtime": "4.0.0",
+          "System.Linq.Queryable": "4.0.0",
+          "System.Net.Requests": "4.0.11"
+        },
+        "compile": {
+          "lib/net40/Microsoft.Data.Services.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Data.Services.Client.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ru/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-Hans/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net40/zh-Hant/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/2.28.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll": {},
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll": {},
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.9": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "compile": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.3.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.9, 3.0.0)",
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "compile": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure.Authentication/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "[2.28.3, 4.0.0)",
+          "Microsoft.Rest.ClientRuntime": "[2.3.9, 3.0.0)",
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "compile": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.Azure.Authentication.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.Azure.Authentication.dll": {}
+        }
+      },
+      "MySql.Data/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.5.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.ComponentModel",
+          "System.ComponentModel.DataAnnotations",
+          "System.Configuration",
+          "System.Configuration.Install",
+          "System.Data",
+          "System.Drawing",
+          "System.Drawing.Design",
+          "System.Management",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net452/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MySql.Data.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.ComponentModel.EventBasedAsync/4.0.11": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Dynamic.Runtime/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Linq.Queryable/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Net.Requests/4.0.11": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "ref/net46/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Net.Requests.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net46/_._": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Spatial/5.8.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Spatial.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/System.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/System.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/System.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/System.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/System.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/System.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ru/System.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-Hans/System.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net40/zh-Hant/System.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "WindowsAzure.Storage/8.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.KeyVault.Core": "1.0.0",
+          "Microsoft.Data.OData": "5.8.2",
+          "Microsoft.Data.Services.Client": "5.8.2",
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "frameworkAssemblies": [
+          "System.Data"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.WindowsAzure.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Google.Protobuf/3.5.1": {
+      "sha512": "f2k1VNaB9bfvEsvARzzEL1TZiIpL33KKK3JMH7UANlPlJVptuvsk4qpBZEnz0pORWZOdUHlVwMQuUzFqjJYCxA==",
+      "type": "package",
+      "path": "google.protobuf/3.5.1",
+      "files": [
+        "google.protobuf.3.5.1.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/netstandard1.0/Google.Protobuf.dll",
+        "lib/netstandard1.0/Google.Protobuf.xml",
+        "uxzcj20y.jw5"
+      ]
+    },
+    "Microsoft.Azure.KeyVault.Core/1.0.0": {
+      "sha512": "iaA0E8xoVlqroQ7Iurg/VyAjfPdhzn+xN7JkdncmNoox/ez49uPbxp2vMrvhopBaUMuoBu38+8e0RvrV+X+BxA==",
+      "type": "package",
+      "path": "microsoft.azure.keyvault.core/1.0.0",
+      "files": [
+        "lib/net40/Microsoft.Azure.KeyVault.Core.dll",
+        "lib/net40/Microsoft.Azure.KeyVault.Core.xml",
+        "lib/portable-net45+wp8+wpa81+win/Microsoft.Azure.KeyVault.Core.dll",
+        "lib/portable-net45+wp8+wpa81+win/Microsoft.Azure.KeyVault.Core.xml",
+        "microsoft.azure.keyvault.core.1.0.0.nupkg.sha512",
+        "microsoft.azure.keyvault.core.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.AppService.Fluent/1.10.0": {
+      "sha512": "inbdFo11rNqFO8l9QTIXlSY36th2tCxx124gKu8XfCJ0GbIsPFpRaFjWrgk1FbNzo2zIqM4SvsWqVPx2j58GgQ==",
+      "type": "package",
+      "path": "microsoft.azure.management.appservice.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.AppService.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.AppService.Fluent.dll",
+        "microsoft.azure.management.appservice.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.appservice.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Batch.Fluent/1.10.0": {
+      "sha512": "wU4Pz/faQl5V7vNAN72ZTqKgF+K6expJhXeDX2jRQd0L2gkfWry5hd14SNTJz2AdFRPWFfj8Rf6VkCISp2wFxg==",
+      "type": "package",
+      "path": "microsoft.azure.management.batch.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Batch.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Batch.Fluent.dll",
+        "microsoft.azure.management.batch.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.batch.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.BatchAI.Fluent/1.10.0": {
+      "sha512": "WZ2veehZxl6EIs6W9o/Uvu974VJdZMSMIAlySoOIqqFGsKC8+MNEet9ted8Q2WEJgoJiPVeJCf5AJuBaaPZ6GQ==",
+      "type": "package",
+      "path": "microsoft.azure.management.batchai.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.BatchAI.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.BatchAI.Fluent.dll",
+        "microsoft.azure.management.batchai.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.batchai.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Cdn.Fluent/1.10.0": {
+      "sha512": "aPWBgy2IKPqwNjs3a0O0l47nP44JPJGOLvsNMzLOqi2Q/UP8PevQGpsYbxaXmtxibDR61bPHz6GJTy4tSvzirg==",
+      "type": "package",
+      "path": "microsoft.azure.management.cdn.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Cdn.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Cdn.Fluent.dll",
+        "microsoft.azure.management.cdn.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.cdn.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Compute.Fluent/1.10.0": {
+      "sha512": "FBGMMt2j/Ii0p4ym1VpIoxUcQJyi/4oTz1KnHTyBLPCUtGe5ITkMcfv3crd+WJ1gbqeKHiVP35mnrOjF6EiXqA==",
+      "type": "package",
+      "path": "microsoft.azure.management.compute.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Compute.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Compute.Fluent.dll",
+        "microsoft.azure.management.compute.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.compute.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.ContainerInstance.Fluent/1.10.0": {
+      "sha512": "H64b+xKZkk8p0oWewaMPa3xGKD52bm9PLWH/bOBMNeGZTezI2YVFgRuLSK0O+Lj2dbeyi9IqWsJcRfTAVIGuUQ==",
+      "type": "package",
+      "path": "microsoft.azure.management.containerinstance.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.ContainerInstance.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.ContainerInstance.Fluent.dll",
+        "microsoft.azure.management.containerinstance.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.containerinstance.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.ContainerRegistry.Fluent/1.10.0": {
+      "sha512": "qo+c/jZ3gHBpT4hiJJ9NOe1x/+Uh3WBa7/LfpMvwQgIeo+LE+89Apxxlj+qQQefrnSKOc/366+VdxjiOa6dmtQ==",
+      "type": "package",
+      "path": "microsoft.azure.management.containerregistry.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.ContainerRegistry.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.ContainerRegistry.Fluent.dll",
+        "microsoft.azure.management.containerregistry.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.containerregistry.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.ContainerService.Fluent/1.10.0": {
+      "sha512": "fBy0aHB726MubzJzZVgVmXFvyW6JQW8PiaGJEMnP0G/659WvCPel8/P3VK167Vao6Fm+cm0S1LaIqqkwSn4iSA==",
+      "type": "package",
+      "path": "microsoft.azure.management.containerservice.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.ContainerService.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.ContainerService.Fluent.dll",
+        "microsoft.azure.management.containerservice.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.containerservice.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.CosmosDB.Fluent/1.10.0": {
+      "sha512": "G0cG1eKYOaLMYBE41+fT1QLlVJSbahIJxp0KL7yD286Lm5b2NMIIML0g/XGEiyITZhQYz78tNNqHc4uLN0IJrg==",
+      "type": "package",
+      "path": "microsoft.azure.management.cosmosdb.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.CosmosDB.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.CosmosDB.Fluent.dll",
+        "microsoft.azure.management.cosmosdb.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.cosmosdb.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Dns.Fluent/1.10.0": {
+      "sha512": "Gjy8H9T7EVONAC0n0P1kIb8GRJQqQUiPAhE7IDBrzqqGCrbt8tLpFCvkO0FSueuYu6LWIqBh9Qpu0x8mlxHUjg==",
+      "type": "package",
+      "path": "microsoft.azure.management.dns.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Dns.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Dns.Fluent.dll",
+        "microsoft.azure.management.dns.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.dns.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.EventHub.Fluent/1.10.0": {
+      "sha512": "i8W0NFUiiSZznJUcrzYPKmgvR0r1iWvj1An9l1agOsgbU3FHLruQLxNV2M4GmbRzYnjW9jIfbdBnpo/jbOeYyw==",
+      "type": "package",
+      "path": "microsoft.azure.management.eventhub.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.EventHub.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.EventHub.Fluent.dll",
+        "microsoft.azure.management.eventhub.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.eventhub.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Fluent/1.10.0": {
+      "sha512": "yQ40x7rT7s/EXUTKELrxp+n00HWNLKABpbZCxZqwYlnieDswRCDUoa1P1j0MYbZ0fo7HzYRDys1hRT/URs8JKw==",
+      "type": "package",
+      "path": "microsoft.azure.management.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Fluent.dll",
+        "microsoft.azure.management.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Graph.RBAC.Fluent/1.10.0": {
+      "sha512": "10dqkW7e6h13lmpzLYSVIyWdeb/LHXTAskYPx83kgatZ1GSkd4oA1RR5EEQMvGhpSlvOfC9wD45v1xx+0q3RrQ==",
+      "type": "package",
+      "path": "microsoft.azure.management.graph.rbac.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Graph.RBAC.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Graph.RBAC.Fluent.dll",
+        "microsoft.azure.management.graph.rbac.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.graph.rbac.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.KeyVault.Fluent/1.10.0": {
+      "sha512": "6NSccCVFjS+eraG4U5UoA8EeTaw0QrEUG4CTJdAWeGiCuhGsWzz+6ENd5SOyi2aJeXoxLJkC4LegckTMjfWsfA==",
+      "type": "package",
+      "path": "microsoft.azure.management.keyvault.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.KeyVault.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.KeyVault.Fluent.dll",
+        "microsoft.azure.management.keyvault.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.keyvault.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Locks.Fluent/1.10.0": {
+      "sha512": "jtlR1RQZS5cpuLyF2pP1ewgnsWE+hCsxp1gstjzqfPlhVuQXhnGI0SzpXvGfqbLnL9urd7mRMezQQ5XUVbU7Gw==",
+      "type": "package",
+      "path": "microsoft.azure.management.locks.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Locks.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Locks.Fluent.dll",
+        "microsoft.azure.management.locks.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.locks.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Monitor.Fluent/1.10.0": {
+      "sha512": "FJ95MvMgZfKFEHCb3dNEkzp0qCIc5DXV26weGx248KlGx77k3x/2ZIw2y9IMUhcroGW5SRG0IQsz4AHzSyL4hg==",
+      "type": "package",
+      "path": "microsoft.azure.management.monitor.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Monitor.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Monitor.Fluent.dll",
+        "microsoft.azure.management.monitor.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.monitor.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Msi.Fluent/1.10.0": {
+      "sha512": "G2V4Yq8JqVKH8RlmTS1aFRzTYMHXAwHMqWBICuNuK0LTf5yQK0lSpyJZsVWgk04XD9oODz3HG09dsEVXSHiIQg==",
+      "type": "package",
+      "path": "microsoft.azure.management.msi.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Msi.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Msi.Fluent.dll",
+        "microsoft.azure.management.msi.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.msi.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Network.Fluent/1.10.0": {
+      "sha512": "5NCUx2BfSvV0uxHbKieA0n29xoViHvC5ci6dyYni4vS4ZnQOSb5PIem7eck2zht42s3QeD+P4u8pBeDzIgc3XQ==",
+      "type": "package",
+      "path": "microsoft.azure.management.network.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Network.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Network.Fluent.dll",
+        "microsoft.azure.management.network.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.network.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Redis.Fluent/1.10.0": {
+      "sha512": "GseVaLp+06fjUV330NqP3+ZdFvkjnLfIUtTT6XQrn9HaXfy/P45xdnIZrD3qK79rhqBaUyFz8OASQjcUdBJVUQ==",
+      "type": "package",
+      "path": "microsoft.azure.management.redis.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Redis.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Redis.Fluent.dll",
+        "microsoft.azure.management.redis.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.redis.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.ResourceManager.Fluent/1.10.0": {
+      "sha512": "kY0UaXp+Wz0RajKhS7j60LIDqsv+bGZjC2EUuOUOlbxsBfWG7hvL5GVZXthMlCkqvO1yMasik9MBIy79HjmRAw==",
+      "type": "package",
+      "path": "microsoft.azure.management.resourcemanager.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.ResourceManager.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.ResourceManager.Fluent.dll",
+        "microsoft.azure.management.resourcemanager.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.resourcemanager.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Search.Fluent/1.10.0": {
+      "sha512": "hMNKrY7+agOzelrlvGzWVV5rv8h7oKMTDL2VjLx0St+B1xHeVmpiukwsFHwBVm9lT3yy+eEULGf87ptur6hq4Q==",
+      "type": "package",
+      "path": "microsoft.azure.management.search.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Search.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Search.Fluent.dll",
+        "microsoft.azure.management.search.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.search.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.ServiceBus.Fluent/1.10.0": {
+      "sha512": "Z5lMaoTuJW/hpA0408kCi4tA2deFAqRJhqZtR7Ykp1ywpZWCWgv+F3w5tQ3c314xr83TJE3VoDTrYnzc8rU4vg==",
+      "type": "package",
+      "path": "microsoft.azure.management.servicebus.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.ServiceBus.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.ServiceBus.Fluent.dll",
+        "microsoft.azure.management.servicebus.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.servicebus.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Sql.Fluent/1.10.0": {
+      "sha512": "fMa0xxrRhecS+ZjV/uAoA2bjeK20eNZ5izYpIxGdVTIg3bLB1YDLzHXPyDUyUWeBW/RdofqnnQkL79MO5HCbIw==",
+      "type": "package",
+      "path": "microsoft.azure.management.sql.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Sql.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Sql.Fluent.dll",
+        "microsoft.azure.management.sql.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.sql.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.Storage.Fluent/1.10.0": {
+      "sha512": "cmA5lLgKZxem1j2/8lXfqRckcijLD3GhSnAXhx4K/CO0fPHI40+krq7XuV/mE+X8fRb6zRECpsaElPdxsOH9xQ==",
+      "type": "package",
+      "path": "microsoft.azure.management.storage.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.Storage.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.Storage.Fluent.dll",
+        "microsoft.azure.management.storage.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.storage.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Management.TrafficManager.Fluent/1.10.0": {
+      "sha512": "AV9+snUWDpVDaLU6exNf23J7LQmSkptEUI4kpglQRyJhnIa0nvV8x/PpOKjutfuwlrwdFBvSuvg+04jsAEGCOA==",
+      "type": "package",
+      "path": "microsoft.azure.management.trafficmanager.fluent/1.10.0",
+      "files": [
+        "lib/net452/Microsoft.Azure.Management.TrafficManager.Fluent.dll",
+        "lib/netstandard1.3/Microsoft.Azure.Management.TrafficManager.Fluent.dll",
+        "microsoft.azure.management.trafficmanager.fluent.1.10.0.nupkg.sha512",
+        "microsoft.azure.management.trafficmanager.fluent.nuspec"
+      ]
+    },
+    "Microsoft.Data.Edm/5.8.2": {
+      "sha512": "P/d8DxA6MFHroBEn/jW0LMQSIKnsRRibrZtRCLfov2boQfrQ1R1BVgkJ5oIhcQsOm0l4POv+I2ny6RBsclNbOw==",
+      "type": "package",
+      "path": "microsoft.data.edm/5.8.2",
+      "files": [
+        "lib/net40/Microsoft.Data.Edm.dll",
+        "lib/net40/Microsoft.Data.Edm.xml",
+        "lib/net40/de/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/es/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/fr/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/it/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/ja/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/ko/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/ru/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/zh-Hans/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/zh-Hant/Microsoft.Data.Edm.resources.dll",
+        "lib/netstandard1.1/Microsoft.Data.Edm.dll",
+        "lib/netstandard1.1/Microsoft.Data.Edm.xml",
+        "lib/netstandard1.1/de/Microsoft.Data.Edm.resources.dll",
+        "lib/netstandard1.1/es/Microsoft.Data.Edm.resources.dll",
+        "lib/netstandard1.1/fr/Microsoft.Data.Edm.resources.dll",
+        "lib/netstandard1.1/it/Microsoft.Data.Edm.resources.dll",
+        "lib/netstandard1.1/ja/Microsoft.Data.Edm.resources.dll",
+        "lib/netstandard1.1/ko/Microsoft.Data.Edm.resources.dll",
+        "lib/netstandard1.1/ru/Microsoft.Data.Edm.resources.dll",
+        "lib/netstandard1.1/zh-Hans/Microsoft.Data.Edm.resources.dll",
+        "lib/netstandard1.1/zh-Hant/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Data.Edm.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Data.Edm.xml",
+        "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/Microsoft.Data.Edm.dll",
+        "lib/portable-net45+wp8+win8+wpa/Microsoft.Data.Edm.xml",
+        "lib/portable-net45+wp8+win8+wpa/de/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/es/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/it/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.Data.Edm.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/Microsoft.Data.Edm.dll",
+        "lib/sl4/Microsoft.Data.Edm.xml",
+        "lib/sl4/de/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/es/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/fr/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/it/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/ja/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/ko/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/ru/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/zh-Hans/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/zh-Hant/Microsoft.Data.Edm.resources.dll",
+        "microsoft.data.edm.5.8.2.nupkg.sha512",
+        "microsoft.data.edm.nuspec"
+      ]
+    },
+    "Microsoft.Data.OData/5.8.2": {
+      "sha512": "oEIUtXcRiKogF0yZxA+QdgxoBJ34989qL/5xOSrTfxAhzNJV5Hw6DRdWgUCpeXFMoJUQx7ptbHCN+My/LCQfsg==",
+      "type": "package",
+      "path": "microsoft.data.odata/5.8.2",
+      "files": [
+        "lib/net40/Microsoft.Data.OData.dll",
+        "lib/net40/Microsoft.Data.OData.xml",
+        "lib/net40/de/Microsoft.Data.OData.resources.dll",
+        "lib/net40/es/Microsoft.Data.OData.resources.dll",
+        "lib/net40/fr/Microsoft.Data.OData.resources.dll",
+        "lib/net40/it/Microsoft.Data.OData.resources.dll",
+        "lib/net40/ja/Microsoft.Data.OData.resources.dll",
+        "lib/net40/ko/Microsoft.Data.OData.resources.dll",
+        "lib/net40/ru/Microsoft.Data.OData.resources.dll",
+        "lib/net40/zh-Hans/Microsoft.Data.OData.resources.dll",
+        "lib/net40/zh-Hant/Microsoft.Data.OData.resources.dll",
+        "lib/netstandard1.1/Microsoft.Data.OData.dll",
+        "lib/netstandard1.1/Microsoft.Data.OData.xml",
+        "lib/netstandard1.1/de/Microsoft.Data.OData.resources.dll",
+        "lib/netstandard1.1/es/Microsoft.Data.OData.resources.dll",
+        "lib/netstandard1.1/fr/Microsoft.Data.OData.resources.dll",
+        "lib/netstandard1.1/it/Microsoft.Data.OData.resources.dll",
+        "lib/netstandard1.1/ja/Microsoft.Data.OData.resources.dll",
+        "lib/netstandard1.1/ko/Microsoft.Data.OData.resources.dll",
+        "lib/netstandard1.1/ru/Microsoft.Data.OData.resources.dll",
+        "lib/netstandard1.1/zh-Hans/Microsoft.Data.OData.resources.dll",
+        "lib/netstandard1.1/zh-Hant/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Data.OData.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Data.OData.xml",
+        "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/Microsoft.Data.OData.dll",
+        "lib/portable-net45+wp8+win8+wpa/Microsoft.Data.OData.xml",
+        "lib/portable-net45+wp8+win8+wpa/de/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/es/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/it/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.Data.OData.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/Microsoft.Data.OData.dll",
+        "lib/sl4/Microsoft.Data.OData.xml",
+        "lib/sl4/de/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/es/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/fr/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/it/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/ja/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/ko/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/ru/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/zh-Hans/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/zh-Hant/Microsoft.Data.OData.resources.dll",
+        "microsoft.data.odata.5.8.2.nupkg.sha512",
+        "microsoft.data.odata.nuspec"
+      ]
+    },
+    "Microsoft.Data.Services.Client/5.8.2": {
+      "sha512": "RtTMj1EOQa9nzJGZEb13Z7hW3gjqLsPoeHHD/8PEZ/b+8Wb+UHMxvS7llg0TUki1nwiwcaBfGeQE3zN5IQNYPA==",
+      "type": "package",
+      "path": "microsoft.data.services.client/5.8.2",
+      "files": [
+        "lib/net40/Microsoft.Data.Services.Client.dll",
+        "lib/net40/Microsoft.Data.Services.Client.xml",
+        "lib/net40/de/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/es/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/fr/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/it/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/ja/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/ko/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/ru/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/zh-Hans/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/zh-Hant/Microsoft.Data.Services.Client.resources.dll",
+        "lib/netstandard1.1/Microsoft.Data.Services.Client.dll",
+        "lib/netstandard1.1/Microsoft.Data.Services.Client.xml",
+        "lib/netstandard1.1/de/Microsoft.Data.Services.Client.resources.dll",
+        "lib/netstandard1.1/es/Microsoft.Data.Services.Client.resources.dll",
+        "lib/netstandard1.1/fr/Microsoft.Data.Services.Client.resources.dll",
+        "lib/netstandard1.1/it/Microsoft.Data.Services.Client.resources.dll",
+        "lib/netstandard1.1/ja/Microsoft.Data.Services.Client.resources.dll",
+        "lib/netstandard1.1/ko/Microsoft.Data.Services.Client.resources.dll",
+        "lib/netstandard1.1/ru/Microsoft.Data.Services.Client.resources.dll",
+        "lib/netstandard1.1/zh-Hans/Microsoft.Data.Services.Client.resources.dll",
+        "lib/netstandard1.1/zh-Hant/Microsoft.Data.Services.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/Microsoft.Data.Services.Client.dll",
+        "lib/portable-net45+wp8+win8+wpa/Microsoft.Data.Services.Client.xml",
+        "lib/portable-net45+wp8+win8+wpa/de/Microsoft.Data.Services.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/es/Microsoft.Data.Services.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.Data.Services.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/it/Microsoft.Data.Services.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.Data.Services.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.Data.Services.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.Data.Services.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.Data.Services.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/Microsoft.Data.Services.Client.dll",
+        "lib/sl4/Microsoft.Data.Services.Client.xml",
+        "lib/sl4/de/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/es/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/fr/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/it/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/ja/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/ko/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/ru/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/zh-Hans/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/zh-Hant/Microsoft.Data.Services.Client.resources.dll",
+        "microsoft.data.services.client.5.8.2.nupkg.sha512",
+        "microsoft.data.services.client.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Clients.ActiveDirectory/2.28.3": {
+      "sha512": "8cbI3bn4wO1OdzKfRhCTr9RdaBK9W0bcQ5qNZ9EDYuMpzUDHJZuFbDDonE8W+xqWO+m/wGr63yKZLNWHve7yQg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.clients.activedirectory/2.28.3",
+      "files": [
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd",
+        "lib/wp/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/wp/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/wpa/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/wpa/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd",
+        "microsoft.identitymodel.clients.activedirectory.2.28.3.nupkg.sha512",
+        "microsoft.identitymodel.clients.activedirectory.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.9": {
+      "sha512": "rCg0mP8F+18/feONzMCVFOioH3lTVL3xmcznVW7yYNP79BCoqmNuM4UheovlTbXQbiMSQRYT0T8GO44YJzyvJg==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime/2.3.9",
+      "files": [
+        "lib/net452/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/net452/Microsoft.Rest.ClientRuntime.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.xml",
+        "microsoft.rest.clientruntime.2.3.9.nupkg.sha512",
+        "microsoft.rest.clientruntime.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime.Azure/3.3.10": {
+      "sha512": "0cN3zl/lYtvClJMWVL5bCWr3iMnCx2/uGt8xbo8txNMJxp5bLKlhErKflVJRWeUfTl2clREt13+rOy/iQ1/RKg==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime.azure/3.3.10",
+      "files": [
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.xml",
+        "microsoft.rest.clientruntime.azure.3.3.10.nupkg.sha512",
+        "microsoft.rest.clientruntime.azure.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime.Azure.Authentication/2.3.2": {
+      "sha512": "LC+5JPffUuKTgPf2Y6PLohOZoqJjc+KLyFd2u38qcVNgfmYAByDwKH5UwGyWXqAPW5L3beV2ykDJr5lMxH9vCg==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime.azure.authentication/2.3.2",
+      "files": [
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.Authentication.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.Authentication.runtimeconfig.json",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.Authentication.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.Authentication.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.Authentication.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.Authentication.xml",
+        "microsoft.rest.clientruntime.azure.authentication.2.3.2.nupkg.sha512",
+        "microsoft.rest.clientruntime.azure.authentication.nuspec"
+      ]
+    },
+    "MySql.Data/8.0.11": {
+      "sha512": "P5zKcnM2SVtdHD6gfReymJguIYLhNL5Og8Qm5TC9MEsSupsAYrRu4AB4nsbalrjqqv8VHBqVREWsXg9lY+q03A==",
+      "type": "package",
+      "path": "mysql.data/8.0.11",
+      "files": [
+        "lib/net452/MySql.Data.dll",
+        "lib/net452/MySql.Data.xml",
+        "lib/netcoreapp2.0/MySql.Data.dll",
+        "lib/netcoreapp2.0/MySql.Data.xml",
+        "lib/netstandard1.6/MySql.Data.dll",
+        "lib/netstandard1.6/MySql.Data.xml",
+        "lib/netstandard2.0/MySql.Data.dll",
+        "lib/netstandard2.0/MySql.Data.xml",
+        "lytu1kuy.4ne",
+        "mysql.data.8.0.11.nupkg.sha512",
+        "mysql.data.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "System.ComponentModel.EventBasedAsync/4.0.11": {
+      "sha512": "Z7SO6vvQIR84daPE4uhaNdef9CjgjDMGYkas8epUhf0U3WGuaGgZ0Mm4QuNycMdbHUY8KEdZrtgxonkAiJaAlA==",
+      "type": "package",
+      "path": "system.componentmodel.eventbasedasync/4.0.11",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.ComponentModel.EventBasedAsync.dll",
+        "lib/netstandard1.3/System.ComponentModel.EventBasedAsync.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.ComponentModel.EventBasedAsync.dll",
+        "ref/netcore50/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcore50/de/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcore50/es/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcore50/fr/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcore50/it/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcore50/ja/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcore50/ko/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcore50/ru/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/System.ComponentModel.EventBasedAsync.dll",
+        "ref/netstandard1.0/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/de/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/es/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/fr/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/it/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/ja/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/ko/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/ru/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/zh-hans/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.0/zh-hant/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/System.ComponentModel.EventBasedAsync.dll",
+        "ref/netstandard1.3/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/de/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/es/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/fr/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/it/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/ja/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/ko/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/ru/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/zh-hans/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netstandard1.3/zh-hant/System.ComponentModel.EventBasedAsync.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.eventbasedasync.4.0.11.nupkg.sha512",
+        "system.componentmodel.eventbasedasync.nuspec"
+      ]
+    },
+    "System.Dynamic.Runtime/4.0.0": {
+      "sha512": "33os71rQUCLjM5pbhQqCopq9/YcqBHPBQ8WylrzNk3oJmfAR0SFwzZIKJRN2JcrkBYdzC/NtWrYVU8oroyZieA==",
+      "type": "package",
+      "path": "system.dynamic.runtime/4.0.0",
+      "files": [
+        "License.rtf",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/dotnet/System.Dynamic.Runtime.dll",
+        "ref/dotnet/System.Dynamic.Runtime.xml",
+        "ref/dotnet/de/System.Dynamic.Runtime.xml",
+        "ref/dotnet/es/System.Dynamic.Runtime.xml",
+        "ref/dotnet/fr/System.Dynamic.Runtime.xml",
+        "ref/dotnet/it/System.Dynamic.Runtime.xml",
+        "ref/dotnet/ja/System.Dynamic.Runtime.xml",
+        "ref/dotnet/ko/System.Dynamic.Runtime.xml",
+        "ref/dotnet/ru/System.Dynamic.Runtime.xml",
+        "ref/dotnet/zh-hans/System.Dynamic.Runtime.xml",
+        "ref/dotnet/zh-hant/System.Dynamic.Runtime.xml",
+        "ref/net45/_._",
+        "ref/netcore50/System.Dynamic.Runtime.dll",
+        "ref/netcore50/System.Dynamic.Runtime.xml",
+        "ref/netcore50/de/System.Dynamic.Runtime.xml",
+        "ref/netcore50/es/System.Dynamic.Runtime.xml",
+        "ref/netcore50/fr/System.Dynamic.Runtime.xml",
+        "ref/netcore50/it/System.Dynamic.Runtime.xml",
+        "ref/netcore50/ja/System.Dynamic.Runtime.xml",
+        "ref/netcore50/ko/System.Dynamic.Runtime.xml",
+        "ref/netcore50/ru/System.Dynamic.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Dynamic.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Dynamic.Runtime.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "system.dynamic.runtime.4.0.0.nupkg.sha512",
+        "system.dynamic.runtime.nuspec"
+      ]
+    },
+    "System.Linq.Queryable/4.0.0": {
+      "sha512": "DIlvCNn3ucFvwMMzXcag4aFnFJ1fdxkQ5NqwJe9Nh7y8ozzhDm07YakQL/yoF3P1dLzY1T2cTpuwbAmVSdXyBA==",
+      "type": "package",
+      "path": "system.linq.queryable/4.0.0",
+      "files": [
+        "lib/dotnet/System.Linq.Queryable.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Linq.Queryable.dll",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "ref/dotnet/System.Linq.Queryable.dll",
+        "ref/dotnet/System.Linq.Queryable.xml",
+        "ref/dotnet/de/System.Linq.Queryable.xml",
+        "ref/dotnet/es/System.Linq.Queryable.xml",
+        "ref/dotnet/fr/System.Linq.Queryable.xml",
+        "ref/dotnet/it/System.Linq.Queryable.xml",
+        "ref/dotnet/ja/System.Linq.Queryable.xml",
+        "ref/dotnet/ko/System.Linq.Queryable.xml",
+        "ref/dotnet/ru/System.Linq.Queryable.xml",
+        "ref/dotnet/zh-hans/System.Linq.Queryable.xml",
+        "ref/dotnet/zh-hant/System.Linq.Queryable.xml",
+        "ref/net45/_._",
+        "ref/netcore50/System.Linq.Queryable.dll",
+        "ref/netcore50/System.Linq.Queryable.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "system.linq.queryable.4.0.0.nupkg.sha512",
+        "system.linq.queryable.nuspec"
+      ]
+    },
+    "System.Net.Requests/4.0.11": {
+      "sha512": "vxGt7C0cZixN+VqoSW4Yakc1Y9WknmxauDqzxgpw/FnBdz4kQNN51l4wxdXX5VY1xjqy//+G+4CvJWp1+f+y6Q==",
+      "type": "package",
+      "path": "system.net.requests/4.0.11",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/_._",
+        "ref/netcore50/System.Net.Requests.dll",
+        "ref/netcore50/System.Net.Requests.xml",
+        "ref/netcore50/de/System.Net.Requests.xml",
+        "ref/netcore50/es/System.Net.Requests.xml",
+        "ref/netcore50/fr/System.Net.Requests.xml",
+        "ref/netcore50/it/System.Net.Requests.xml",
+        "ref/netcore50/ja/System.Net.Requests.xml",
+        "ref/netcore50/ko/System.Net.Requests.xml",
+        "ref/netcore50/ru/System.Net.Requests.xml",
+        "ref/netcore50/zh-hans/System.Net.Requests.xml",
+        "ref/netcore50/zh-hant/System.Net.Requests.xml",
+        "ref/netstandard1.0/System.Net.Requests.dll",
+        "ref/netstandard1.0/System.Net.Requests.xml",
+        "ref/netstandard1.0/de/System.Net.Requests.xml",
+        "ref/netstandard1.0/es/System.Net.Requests.xml",
+        "ref/netstandard1.0/fr/System.Net.Requests.xml",
+        "ref/netstandard1.0/it/System.Net.Requests.xml",
+        "ref/netstandard1.0/ja/System.Net.Requests.xml",
+        "ref/netstandard1.0/ko/System.Net.Requests.xml",
+        "ref/netstandard1.0/ru/System.Net.Requests.xml",
+        "ref/netstandard1.0/zh-hans/System.Net.Requests.xml",
+        "ref/netstandard1.0/zh-hant/System.Net.Requests.xml",
+        "ref/netstandard1.1/System.Net.Requests.dll",
+        "ref/netstandard1.1/System.Net.Requests.xml",
+        "ref/netstandard1.1/de/System.Net.Requests.xml",
+        "ref/netstandard1.1/es/System.Net.Requests.xml",
+        "ref/netstandard1.1/fr/System.Net.Requests.xml",
+        "ref/netstandard1.1/it/System.Net.Requests.xml",
+        "ref/netstandard1.1/ja/System.Net.Requests.xml",
+        "ref/netstandard1.1/ko/System.Net.Requests.xml",
+        "ref/netstandard1.1/ru/System.Net.Requests.xml",
+        "ref/netstandard1.1/zh-hans/System.Net.Requests.xml",
+        "ref/netstandard1.1/zh-hant/System.Net.Requests.xml",
+        "ref/netstandard1.3/System.Net.Requests.dll",
+        "ref/netstandard1.3/System.Net.Requests.xml",
+        "ref/netstandard1.3/de/System.Net.Requests.xml",
+        "ref/netstandard1.3/es/System.Net.Requests.xml",
+        "ref/netstandard1.3/fr/System.Net.Requests.xml",
+        "ref/netstandard1.3/it/System.Net.Requests.xml",
+        "ref/netstandard1.3/ja/System.Net.Requests.xml",
+        "ref/netstandard1.3/ko/System.Net.Requests.xml",
+        "ref/netstandard1.3/ru/System.Net.Requests.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.Requests.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.Requests.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.3/System.Net.Requests.dll",
+        "runtimes/win/lib/net46/_._",
+        "runtimes/win/lib/netstandard1.3/System.Net.Requests.dll",
+        "system.net.requests.4.0.11.nupkg.sha512",
+        "system.net.requests.nuspec"
+      ]
+    },
+    "System.Spatial/5.8.2": {
+      "sha512": "0RfZZJ8RlrfjoBPAF6pczX4Nd2kyLM8EX1PCP5Rqs/jOhJBUPYhpXjIsVAYN7kocj9IJ9XoJWAxWgXIDtJY2Ag==",
+      "type": "package",
+      "path": "system.spatial/5.8.2",
+      "files": [
+        "lib/net40/System.Spatial.dll",
+        "lib/net40/System.Spatial.xml",
+        "lib/net40/de/System.Spatial.resources.dll",
+        "lib/net40/es/System.Spatial.resources.dll",
+        "lib/net40/fr/System.Spatial.resources.dll",
+        "lib/net40/it/System.Spatial.resources.dll",
+        "lib/net40/ja/System.Spatial.resources.dll",
+        "lib/net40/ko/System.Spatial.resources.dll",
+        "lib/net40/ru/System.Spatial.resources.dll",
+        "lib/net40/zh-Hans/System.Spatial.resources.dll",
+        "lib/net40/zh-Hant/System.Spatial.resources.dll",
+        "lib/netstandard1.1/System.Spatial.dll",
+        "lib/netstandard1.1/System.Spatial.xml",
+        "lib/netstandard1.1/de/System.Spatial.resources.dll",
+        "lib/netstandard1.1/es/System.Spatial.resources.dll",
+        "lib/netstandard1.1/fr/System.Spatial.resources.dll",
+        "lib/netstandard1.1/it/System.Spatial.resources.dll",
+        "lib/netstandard1.1/ja/System.Spatial.resources.dll",
+        "lib/netstandard1.1/ko/System.Spatial.resources.dll",
+        "lib/netstandard1.1/ru/System.Spatial.resources.dll",
+        "lib/netstandard1.1/zh-Hans/System.Spatial.resources.dll",
+        "lib/netstandard1.1/zh-Hant/System.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/System.Spatial.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/System.Spatial.xml",
+        "lib/portable-net40+sl5+wp8+win8+wpa/de/System.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/es/System.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/fr/System.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/it/System.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ja/System.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ko/System.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ru/System.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/System.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/System.Spatial.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/System.Spatial.dll",
+        "lib/portable-net45+wp8+win8+wpa/System.Spatial.xml",
+        "lib/portable-net45+wp8+win8+wpa/de/System.Spatial.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/es/System.Spatial.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/fr/System.Spatial.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/it/System.Spatial.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ja/System.Spatial.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ko/System.Spatial.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ru/System.Spatial.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hans/System.Spatial.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hant/System.Spatial.resources.dll",
+        "lib/sl4/System.Spatial.dll",
+        "lib/sl4/System.Spatial.xml",
+        "lib/sl4/de/System.Spatial.resources.dll",
+        "lib/sl4/es/System.Spatial.resources.dll",
+        "lib/sl4/fr/System.Spatial.resources.dll",
+        "lib/sl4/it/System.Spatial.resources.dll",
+        "lib/sl4/ja/System.Spatial.resources.dll",
+        "lib/sl4/ko/System.Spatial.resources.dll",
+        "lib/sl4/ru/System.Spatial.resources.dll",
+        "lib/sl4/zh-Hans/System.Spatial.resources.dll",
+        "lib/sl4/zh-Hant/System.Spatial.resources.dll",
+        "system.spatial.5.8.2.nupkg.sha512",
+        "system.spatial.nuspec"
+      ]
+    },
+    "WindowsAzure.Storage/8.1.4": {
+      "sha512": "W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
+      "type": "package",
+      "path": "windowsazure.storage/8.1.4",
+      "files": [
+        "lib/net45/Microsoft.WindowsAzure.Storage.dll",
+        "lib/net45/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/net45/Microsoft.WindowsAzure.Storage.xml",
+        "lib/netstandard1.0/Microsoft.WindowsAzure.Storage.dll",
+        "lib/netstandard1.0/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll",
+        "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/win8/Microsoft.WindowsAzure.Storage.dll",
+        "lib/win8/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/wp8/Microsoft.WindowsAzure.Storage.dll",
+        "lib/wp8/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/wpa/Microsoft.WindowsAzure.Storage.dll",
+        "lib/wpa/Microsoft.WindowsAzure.Storage.pdb",
+        "windowsazure.storage.8.1.4.nupkg.sha512",
+        "windowsazure.storage.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "Microsoft.Azure.Management.Compute.Fluent >= 1.10.0",
+      "Microsoft.Azure.Management.Fluent >= 1.10.0",
+      "MySql.Data >= 8.0.11",
+      "Newtonsoft.Json >= 11.0.2"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "D:\\home\\data\\Functions\\packages\\nuget": {}
+  }
+}
