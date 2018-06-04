@@ -20,5 +20,6 @@ using System.Threading;
 public static void Run(string myQueueItem, TraceWriter log)
 {
     AzureOperation s = new AzureOperation();
+	string asd ="sdadsadas";
     log.Info($"C# Queue trigger function processed: {myQueueItem}");
 }
